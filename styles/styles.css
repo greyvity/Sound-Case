@@ -14,6 +14,10 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .background {
   max-width: 100vw;
   max-height: 100vh;
@@ -27,7 +31,7 @@ body {
 }
 
 .background .nav-container nav {
-  min-height: 8vh;
+  max-height: 8vh;
   width: 89.6%;
   margin: 0 auto;
   display: -webkit-box;
@@ -154,6 +158,58 @@ body {
   padding-bottom: 2rem;
   font-size: 1.5rem;
   bottom: 3rem;
+}
+
+.background .nav-container nav .second-page-logo {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.background .container h1.second-page-h1 {
+  text-align: right;
+  font-size: 7.5rem;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: 1/3 / span 2 / span 2;
+  justify-self: flex-end;
+}
+
+.background .container h2.second-page-h2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-area: 2/4/4 / span 1;
+  justify-self: flex-end;
+}
+
+.background .container img.second-page-img {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1/2 / span 4/ 3;
+  justify-self: flex-start;
+}
+
+.background .container footer.second-page-footer {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-area: 4/4/5 / span 1;
+  justify-self: flex-end;
+}
+
+.blue {
+  background: radial-gradient(50.59% 124.65% at 86.9% 117.41%, #00b2ca 99.99%, #000000 100%);
+}
+
+.green {
+  background: radial-gradient(50.59% 124.65% at 10.9% 117.41%, #00a079 99.99%, #000000 100%);
 }
 
 @media only screen and (max-width: 1350px) {

@@ -1,0 +1,20 @@
+.background {
+  @import "nav";
+  @import "body";
+}
+
+.blue {
+  background: radial-gradient(
+    50.59% 124.65% at 86.9% 117.41%,
+    #00b2ca 99.99%,
+    #000000 100%
+  );
+}
+
+.green {
+  background: radial-gradient(
+    50.59% 124.65% at 10.9% 117.41%,
+    #00a079 99.99%,
+    #000000 100%
+  );
+}
