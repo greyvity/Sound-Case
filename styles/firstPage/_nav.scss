@@ -1,0 +1,44 @@
+.nav-container {
+  padding-top: 2rem;
+  background: transparent;
+  position: relative;
+
+  nav {
+    min-height: 8vh;
+    width: 89.6%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      flex: 3;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      list-style: none;
+      flex: 1;
+      font-weight: bolder;
+
+      .nav-link {
+        width: 15.1rem;
+        padding: 1rem 2rem;
+        color: black;
+        height: 60.1px;
+        font-size: 3rem;
+      }
+
+      .white {
+        color: white;
+        background-color: rgb(0, 0, 0);
+        border-radius: 17px;
+      }
+    }
+  }
+}

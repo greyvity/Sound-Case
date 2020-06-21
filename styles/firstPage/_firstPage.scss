@@ -1,0 +1,11 @@
+.background {
+  max-width: 100vw;
+  max-height: 100vh;
+  background: radial-gradient(
+    50.59% 124.65% at 86.9% 117.41%,
+    #00b2ca 99.99%,
+    #000000 100%
+  );
+  @import "nav";
+  @import "body";
+}
