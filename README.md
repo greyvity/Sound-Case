@@ -7,6 +7,6 @@ https://www.figma.com/proto/GFz45kj6AFds5nAofq4mSt/Monochromatic?node-id=8%3A16&
 Feel free to comment on the prototype above.(Shortcut: press C and click anywhere on the screen.)   
 Its one of my first UI designs and the first ever logo design.
 
-Assets Used:
-Photo by Ashutosh Sonwani from Pexels  
-https://www.pexels.com/@ashutoshsonwani?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
+Assets Used:     
+assets/croppedTape.png (original Photo by Ashutosh Sonwani from Pexels)          
+https://www.pexels.com/photo/person-doing-tricks-on-cassette-tape-1762578/
