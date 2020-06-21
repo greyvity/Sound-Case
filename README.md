@@ -8,5 +8,5 @@ Feel free to comment on the prototype above.(Shortcut: press C and click anywher
 Its one of my first UI designs and the first ever logo design.
 
 Assets Used:
-Photo by Ashutosh Sonwani from Pexels
+Photo by Ashutosh Sonwani from Pexels  
 https://www.pexels.com/@ashutoshsonwani?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
